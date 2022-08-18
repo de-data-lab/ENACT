@@ -4,7 +4,7 @@ library(sf)
 library(here)
 library(tidyverse)
 
-source(here("app/utils.R"))
+source(here("R/utils.R"))
 
 # Default anchor for the leaflet view
 default_lat <- 39.1824
