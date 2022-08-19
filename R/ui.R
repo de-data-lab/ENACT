@@ -3,8 +3,8 @@ library(leaflet)
 
 bootstrapPage(
     tags$div("Everyone Names All Census Tracts",
-             style = "z-index: 50; position: absolute; background: white; left: 5rem; top: 1rem; padding: 2rem;
-                      font-weight: bold; border: solid 1px gray; border-radius: 5px"),
+             style = "z-index: 50; position: absolute; background: #0057B8; color: white; left: 5rem; top: 1rem; padding: 2rem;
+                      font-weight: bold; border-radius: 5px"),
     tags$div(
         tags$a(
             icon("github"),
