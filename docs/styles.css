@@ -1,0 +1,33 @@
+* {
+    font-family: Sans-Serif;
+    margin: 0;
+}
+
+.title {
+    position: absolute;
+    z-index: 50;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    background: #0057B8;
+    color: white;
+}
+
+.map {
+    position: absolute;
+}
+
+.github {
+    z-index: 50;
+    position: absolute;
+    bottom: 1rem; 
+    right: 2rem;
+    border-radius: 50%; 
+    text-align: center; 
+    font-size: 3rem;
+    color: black;
+}
+
+.github a {
+    color: black;
+}
